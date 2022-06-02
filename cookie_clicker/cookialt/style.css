@@ -1,0 +1,122 @@
+html {
+    background: url(image/Wano.jpg);
+    background-position: center;
+    height: 100%;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.titre {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.equipage {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.luffy{
+    width: 70%;
+    
+    display: flex;
+    flex-direction: row;
+  justify-content: center;
+    
+}
+
+.luffyy {
+    border-radius:50%;
+    border: solid;
+    display: flex;
+    align-items: center;
+   
+    
+}
+.luffyy:active
+{
+   transform: scale(0.8);
+}
+
+.boutique img:active
+{
+   transform: scale(1.2);
+}
+
+.Nami {
+    border-radius:50%;
+    border: solid;
+    
+    
+}
+
+.chopper{
+    border-radius:50%;
+    border: solid;
+}
+
+.Usopp {
+    border-radius:50%;
+    border: solid;
+}
+
+.Robin {
+    border-radius:50%;
+    border: solid;
+}
+
+.Sanji {
+    border-radius:50%;
+    border: solid;
+}
+
+.Zoro {
+    border-radius:50%;
+    border: solid;
+
+}
+
+.boutique {
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    align-items: center;
+    margin-top: -150px;
+    
+   
+
+}
+
+.Namietchopper {
+    
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    
+}
+
+.Usoppetrobin {
+    
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+.sanjietzoro {
+    
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+.bouton {
+    display: flex;
+    justify-content: center;
+}
+
+p {
+    font-size: 25px;
+}
+

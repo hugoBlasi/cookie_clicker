@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf8">
+        <title>One Piece Clicker</title>
+        <link rel="stylesheet" href="style.css"/>
+        <script type="text/javascript" src="index.js"></script>
+        <link rel="icon" type="image/png" href="image/Onepiece.png" />
+
+    </head>
+    <header>
+        <h1 class="titre">One Piece Clicker</h1>
+        <img class="ost" src="image/Onepiece.png" onclick="music()" width="40px" >
+    </header>
+    <body>
+
+        
+
+        <p>Berry :<span id="Score">0</span></p>  <br>
+        <p>Berry par seconde :<span id="ScoreGPS">0</span></p>
+
+        <div class="equipage">
+
+        <div class="luffy">
+            <img class="luffyy" src="image/luffy.jpg" onclick="addToScore(Click)" width="256" height="256">
+        </div>
+
+        <div class="boutique">
+            <h1>Boutique</h1>
+         <div class="Namietchopper">
+          <div class="namii">  <img class="Nami" src="image/nami.jpg" onclick="buyNami(Click)" width="150" height="150">
+            <button onclick="buyNami()">Nami〚<span id = "NamiCost">20</span>〛-- <span id="Nami">0</span></button>
+         </div>
+           <div class="choppa"> <img class="chopper" src="image/chopper.jpg" onclick="buyChopper(Click)" width="150" height="150">
+            <button onclick="buyChopper()">Chopper〚<span id = "ChopperCost">50</span>〛-- <span id="Chopper">0</span></button>
+         </div></div>
+
+         <div class="Usoppetrobin">
+         <div class="Usoppp">
+            <img class="Usopp" src="image/usopp.jpg" onclick="buyUsopp(Click)" width="150" height="150">
+            <button onclick="buyUsopp()">Usopp〚<span id = "UsoppCost">100</span>〛-- <span id="Usopp">0</span></button>
+         </div>
+        
+        <div class="robinn">
+            <img class="Robin" src="image/robin.jpg" onclick="buyRobin(Click)" width="150" height="150">
+            <button onclick="buyRobin()">Robin〚<span id = "RobinCost">150</span>〛-- <span id="Robin">0</span></button>
+         </div></div>
+
+         <div class="sanjietzoro">
+         <div class="sanjii">
+            <img class="Sanji" src="image/sanji.jpg" onclick="buySanji(Click)" width="150" height="150">
+            <button onclick="buySanji()">Sanji〚<span id = "SanjiCost">200</span>〛-- <span id="Sanji">0</span></button>
+         </div>
+
+         <div class="zoroo">
+            <img class="Zoro" src="image/zoro.jpg" onclick="buyZoro(Click)" width="150" height="150">
+            <button onclick="buyZoro()">Zoro〚<span id = "ZoroCost">99999</span>〛-- <span id="Zoro">0</span></button>
+         </div></div>
+
+        </div>
+
+        </div>
+        
+        <div class="bouton">
+        <button  onclick="save();">Save Game</button>
+        </div>
+        <!-- <script> 
+            var Score = 0;
+            var Click = 1;
+
+            var NamiCost = 20;
+            var Nami = 0;
+            var ChopperCost = 50;
+            var Chopper = 0;
+            var UsoppCost = 100;
+            var Usopp = 0;
+            var RobinCost = 150;
+            var Robin = 0;
+            var SanjiCost = 200;
+            var Sanji = 0;
+            var ZoroCost = 99999;
+            var Zoro = 0;
+        </script> -->
+    </body>
+</html>
